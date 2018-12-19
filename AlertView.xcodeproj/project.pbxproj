@@ -13,6 +13,7 @@
 		FD3E070621CA3AD000CFCACB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD3E070521CA3AD000CFCACB /* Assets.xcassets */; };
 		FD3E070921CA3AD000CFCACB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD3E070721CA3AD000CFCACB /* LaunchScreen.storyboard */; };
 		FD3E070C21CA3AD000CFCACB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD3E070B21CA3AD000CFCACB /* main.m */; };
+		FD3E071421CA3AEE00CFCACB /* BDNomalAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD3E071221CA3AEE00CFCACB /* BDNomalAlertView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		FD3E070821CA3AD000CFCACB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD3E070A21CA3AD000CFCACB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD3E070B21CA3AD000CFCACB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FD3E071221CA3AEE00CFCACB /* BDNomalAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDNomalAlertView.m; sourceTree = "<group>"; };
+		FD3E071321CA3AEE00CFCACB /* BDNomalAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDNomalAlertView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				FD3E06FD21CA3AC600CFCACB /* AppDelegate.m */,
 				FD3E06FF21CA3AC600CFCACB /* ViewController.h */,
 				FD3E070021CA3AC600CFCACB /* ViewController.m */,
+				FD3E071321CA3AEE00CFCACB /* BDNomalAlertView.h */,
+				FD3E071221CA3AEE00CFCACB /* BDNomalAlertView.m */,
 				FD3E070221CA3AC600CFCACB /* Main.storyboard */,
 				FD3E070521CA3AD000CFCACB /* Assets.xcassets */,
 				FD3E070721CA3AD000CFCACB /* LaunchScreen.storyboard */,
@@ -142,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD3E070121CA3AC600CFCACB /* ViewController.m in Sources */,
+				FD3E071421CA3AEE00CFCACB /* BDNomalAlertView.m in Sources */,
 				FD3E070C21CA3AD000CFCACB /* main.m in Sources */,
 				FD3E06FE21CA3AC600CFCACB /* AppDelegate.m in Sources */,
 			);
